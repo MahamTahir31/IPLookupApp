@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>GetIPInfo</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>IPInfo [ GetIPInfo ]</qualified_name>
+        <rest_endpoint>https://ipinfo.io/${ipaddress}/j${specific_field/}son</rest_endpoint>
+        <rest_message display_value="IPInfo">a980d8cd83ee9a1088ccc765eeaad352</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-16 11:06:02</sys_created_on>
+        <sys_id>b5715c018322da1088ccc765eeaad378</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetIPInfo</sys_name>
+        <sys_package display_value="IPLookup" source="x_1540598_iplookup">db20580d832e9a1088ccc765eeaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">db20580d832e9a1088ccc765eeaad353</sys_scope>
+        <sys_update_name>sys_rest_message_fn_b5715c018322da1088ccc765eeaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-16 13:42:11</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
